@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+
+<head>
+	<script src="/socket.io/socket.io.js"></script>
+	<script src='script.js'></script>
+	<style>
+		#thing {
+			position: absolute;
+			-webkit-transition: all 0.2s ease;
+		}
+	</style>
+</head>
+
+<body onload='load()'>
+
+	<table id=points></table>
+	<img id=thing onClick='click(this);' />
+
+</body>
+
+</html>

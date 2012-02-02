@@ -1,0 +1,9 @@
+{
+	"name": "socketio-demo",
+	"version": "0.0.0",
+	"author": "@killfil",
+	"main": "./server.js",
+	"dependencies": {
+		"socket.io": "*"
+	}
+}
